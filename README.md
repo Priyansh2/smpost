@@ -13,14 +13,17 @@ Installation
 - Pre-requisites : [CRF++](https://taku910.github.io/crfpp/), [Pickle](https://docs.python.org/3/library/pickle.html)
 - Clone the repository.
 - Move in the directory and run the **setup.py** file.
-> - git clone https://github.com/stripathi08/smpost.git
-> - python setup.py install
 
+```
+git clone https://github.com/stripathi08/smpost.git
+python setup.py install
+```
 Usage
 -------------------
 ```
 from SMPOST.main import SMPOST
 <code blocks>
+
 sample_text = [''] # Please fill the sample text
 pre_class = smpost(lang = 'BN')
 pre_class.predict(sample_text)
