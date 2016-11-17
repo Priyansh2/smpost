@@ -21,10 +21,9 @@ python setup.py install
 Usage
 -------------------
 ```
-from SMPOST.main import SMPOST
-<code blocks>
+from SMPOST.main import smpost
 
-sample_text = [''] # Please fill the sample text
+sample_text = ['']
 pre_class = smpost(lang = 'BN')
 pre_class.predict(sample_text)
 ```
@@ -33,10 +32,10 @@ pre_class.predict(sample_text)
 Reporting Doubts and Errors
 -------------------
 - For any queries, please contact at **stripathi1770@gmail.com**.
-
 - Please refer to the publication for detailed results.
 
 Next Versions
 -------------------
-- To include Coarser tag set.
+- To include Coarser tag set and both the constrained runs.
+- BLSTM framework for the same.
 - Improved feature set as used in the [work](https://github.com/stripathi08/pos_cmism).
