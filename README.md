@@ -23,7 +23,7 @@ Usage
 ```
 from SMPOST.main import smpost
 
-sample_text = ['']
+sample_text = ['input sentence here']
 pre_class = smpost(lang = 'BN')
 pre_class.predict(sample_text)
 ```
@@ -33,6 +33,10 @@ Reporting Doubts and Errors
 -------------------
 - For any queries, please contact at **stripathi1770@gmail.com**.
 - Please refer to the publication for detailed results.
+
+Citing the paper
+-------------------
+- If you are using the code for research purposes, please cite the paper. **SMPOST: Parts of Speech Tagger for Code-Mixed Indic Social Media Text**
 
 Next Versions
 -------------------
