@@ -36,7 +36,9 @@ Reporting Doubts and Errors
 
 Citing the paper
 -------------------
-- If you are using the code for research purposes, please cite the paper. **SMPOST: Parts of Speech Tagger for Code-Mixed Indic Social Media Text**
+- If you are using the code for research purposes, please cite the paper.
+
+- [**SMPOST: Parts of Speech Tagger for Code-Mixed Indic Social Media Text**](https://arxiv.org/abs/1702.00167)
 
 Next Versions
 -------------------
